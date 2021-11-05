@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border-spacing: 5px;
+        }
+        th,
+        td {
+            border: 1px solid chocolate;
+            border-collapse: collapse;
+            border-radius: 10px;
+            border-style: dotted;
+            border-color: rgb(205, 165, 90);
+            padding: 5px;
+        }
+
+        td {
+            background-color: green;
+        }
+
+        th {
+            background-color: blue;
+            text-align: center;
+        }
+        th:hover{
+            background-color: red;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Playing With Tables</h1>
+    <table style="width: 100%; height: 500px;">
+        <caption>This is table caption</caption>
+        <tr>
+            <th style="width: 10%;">Name</th>
+            <th>Class</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>Sujnan</td>
+            <td>10</td>
+            <td>ABC</td>
+        </tr>
+        <tr>
+            <td>Gowda</td>
+            <td>11</td>
+            <td>DEF</td>
+        </tr>
+        <tr>
+            <td colspan="3">Col span 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row span check = 2</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

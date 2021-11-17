@@ -21,6 +21,7 @@ class EventBind extends Component {
         this.setState({
             message: 'good bye'
         })
+
     } */
 
     render() {

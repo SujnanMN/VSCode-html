@@ -13,6 +13,7 @@ class Counter extends Component {
     increase() {
        /*  this.setState({                        //setState method is async  --- executed on a different thread // it will re render the component
             count: this.state.count + 1
+
         },
          () => { console.log('call back value ', this.state.count) })   //callback function(=>arrow function)  -- please execute this function[callback] only after the state has been set
        

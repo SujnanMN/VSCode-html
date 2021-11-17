@@ -1,4 +1,4 @@
-function ValidateEmail(mail) 
+/* function ValidateEmail(mail) 
 {
  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)
   {
@@ -6,4 +6,4 @@ function ValidateEmail(mail)
   }
     alert("You have entered an invalid email address!")
     return (false);
-} 
+}  */

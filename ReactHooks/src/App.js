@@ -10,8 +10,8 @@ export const BatchContext = React.createContext()
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={'abdul'} >
-        <BatchContext.Provider value={'dxc batch 2'}>
+      <UserContext.Provider value={'sujnan'} >
+        <BatchContext.Provider value={'google'}>
           <ComponentA />
         </BatchContext.Provider>
       </UserContext.Provider>

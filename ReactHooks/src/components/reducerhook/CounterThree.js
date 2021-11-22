@@ -23,7 +23,7 @@ function CounterThree() {
             <button onClick = {() => dispatch('decrement')}>decrement</button>
             <button onClick = {() => dispatch('reset')}>Reset</button>
             
-            <div> Counttwo - {countTwo}</div>
+            <div> Count2 - {countTwo}</div>
             <button onClick = {() => dispatchTwo('increment')}>Increment</button>
             <button onClick = {() => dispatchTwo('decrement')}>Decrement</button>
             <button onClick = {() => dispatchTwo('reset')}>Reset</button>
